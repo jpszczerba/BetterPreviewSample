@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B64D16EC2847B48D00640F62 /* BetterPreview in Frameworks */ = {isa = PBXBuildFile; productRef = B64D16EB2847B48D00640F62 /* BetterPreview */; };
+		B64D16EE2847B4A000640F62 /* BetterPreview in Frameworks */ = {isa = PBXBuildFile; productRef = B64D16ED2847B4A000640F62 /* BetterPreview */; };
+		B64D16F02847B4A500640F62 /* BetterPreview in Frameworks */ = {isa = PBXBuildFile; productRef = B64D16EF2847B4A500640F62 /* BetterPreview */; };
+		B64D16F22847B4A900640F62 /* BetterPreview in Frameworks */ = {isa = PBXBuildFile; productRef = B64D16F12847B4A900640F62 /* BetterPreview */; };
+		B6674C84282D54A4009037A1 /* InterfaceOrientationsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C83282D54A4009037A1 /* InterfaceOrientationsPreview.swift */; };
+		B6674C86282D560C009037A1 /* UIKitPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C85282D560C009037A1 /* UIKitPreview.swift */; };
+		B6674C8D282D591F009037A1 /* DevicesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C87282D591F009037A1 /* DevicesPreview.swift */; };
+		B6674C8E282D591F009037A1 /* LocalesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C88282D591F009037A1 /* LocalesPreview.swift */; };
+		B6674C90282D591F009037A1 /* DynamicTypeSizesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C8A282D591F009037A1 /* DynamicTypeSizesPreview.swift */; };
+		B6674C93282D5D18009037A1 /* BetterPreviewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD1282BFA8F00F7F83B /* BetterPreviewSampleApp.swift */; };
+		B6674C94282D5D19009037A1 /* BetterPreviewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD1282BFA8F00F7F83B /* BetterPreviewSampleApp.swift */; };
+		B6674C96282D5EC7009037A1 /* ColorSchemesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C95282D5EC7009037A1 /* ColorSchemesPreview.swift */; };
+		B6674C9D282D6228009037A1 /* LocalesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C97282D6227009037A1 /* LocalesPreview.swift */; };
+		B6674CA2282D6228009037A1 /* ColorSchemesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674C9C282D6228009037A1 /* ColorSchemesPreview.swift */; };
+		B6674CB0282D63DE009037A1 /* LocalesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674CAA282D63DE009037A1 /* LocalesPreview.swift */; };
+		B6674CB1282D63DE009037A1 /* ColorSchemesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6674CAB282D63DE009037A1 /* ColorSchemesPreview.swift */; };
+		B683BC912839845C00577545 /* CustomDevicePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683BC902839845C00577545 /* CustomDevicePreview.swift */; };
+		B6B37BE1282BFA9100F7F83B /* BetterPreviewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD1282BFA8F00F7F83B /* BetterPreviewSampleApp.swift */; };
+		B6B37BE2282BFA9100F7F83B /* BetterPreviewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD1282BFA8F00F7F83B /* BetterPreviewSampleApp.swift */; };
+		B6B37BE3282BFA9100F7F83B /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD2282BFA8F00F7F83B /* SampleView.swift */; };
+		B6B37BE4282BFA9100F7F83B /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD2282BFA8F00F7F83B /* SampleView.swift */; };
+		B6B37BE5282BFA9100F7F83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B37BD3282BFA9000F7F83B /* Assets.xcassets */; };
+		B6B37BE6282BFA9100F7F83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B37BD3282BFA9000F7F83B /* Assets.xcassets */; };
+		B6B37BFB282BFAF800F7F83B /* DevicesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BF1282BFAF800F7F83B /* DevicesPreview.swift */; };
+		B6B37C01282BFAF800F7F83B /* DynamicTypeSizesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BF9282BFAF800F7F83B /* DynamicTypeSizesPreview.swift */; };
+		B6B37C17282C127F00F7F83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B37C16282C127F00F7F83B /* Assets.xcassets */; };
+		B6B37C1D282C128000F7F83B /* BetterPreviewSampleWatchOSExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6B37C1C282C128000F7F83B /* BetterPreviewSampleWatchOSExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6B37C28282C128200F7F83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B37C27282C128200F7F83B /* Assets.xcassets */; };
+		B6B37C30282C128200F7F83B /* BetterPreviewSampleWatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6B37C14282C127C00F7F83B /* BetterPreviewSampleWatchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6B37C3C282C16E500F7F83B /* LocalesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BF3282BFAF800F7F83B /* LocalesPreview.swift */; };
+		B6B37C48282C1D1800F7F83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B37C47282C1D1800F7F83B /* Assets.xcassets */; };
+		B6B37C50282D4E9D00F7F83B /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD2282BFA8F00F7F83B /* SampleView.swift */; };
+		B6B37C51282D4E9D00F7F83B /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B37BD2282BFA8F00F7F83B /* SampleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B37C1E282C128000F7F83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B37BCC282BFA8F00F7F83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B37C1B282C128000F7F83B;
+			remoteInfo = "BetterPreviewSampleApp (watchOS) WatchKit Extension";
+		};
+		B6B37C2D282C128200F7F83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B37BCC282BFA8F00F7F83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B37C13282C127C00F7F83B;
+			remoteInfo = "BetterPreviewSampleApp (watchOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6B37C2F282C128200F7F83B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B6B37C30282C128200F7F83B /* BetterPreviewSampleWatchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C34282C128200F7F83B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6B37C1D282C128000F7F83B /* BetterPreviewSampleWatchOSExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6674C83282D54A4009037A1 /* InterfaceOrientationsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceOrientationsPreview.swift; sourceTree = "<group>"; };
+		B6674C85282D560C009037A1 /* UIKitPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitPreview.swift; sourceTree = "<group>"; };
+		B6674C87282D591F009037A1 /* DevicesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesPreview.swift; sourceTree = "<group>"; };
+		B6674C88282D591F009037A1 /* LocalesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalesPreview.swift; sourceTree = "<group>"; };
+		B6674C8A282D591F009037A1 /* DynamicTypeSizesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypeSizesPreview.swift; sourceTree = "<group>"; };
+		B6674C95282D5EC7009037A1 /* ColorSchemesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSchemesPreview.swift; sourceTree = "<group>"; };
+		B6674C97282D6227009037A1 /* LocalesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalesPreview.swift; sourceTree = "<group>"; };
+		B6674C9C282D6228009037A1 /* ColorSchemesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSchemesPreview.swift; sourceTree = "<group>"; };
+		B6674CAA282D63DE009037A1 /* LocalesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalesPreview.swift; sourceTree = "<group>"; };
+		B6674CAB282D63DE009037A1 /* ColorSchemesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSchemesPreview.swift; sourceTree = "<group>"; };
+		B683BC902839845C00577545 /* CustomDevicePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDevicePreview.swift; sourceTree = "<group>"; };
+		B6B37BD1282BFA8F00F7F83B /* BetterPreviewSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterPreviewSampleApp.swift; sourceTree = "<group>"; };
+		B6B37BD2282BFA8F00F7F83B /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		B6B37BD3282BFA9000F7F83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B37BD8282BFA9100F7F83B /* BetterPreviewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPreviewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B37BDE282BFA9100F7F83B /* BetterPreviewSampleMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPreviewSampleMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B37BE0282BFA9100F7F83B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B6B37BF1282BFAF800F7F83B /* DevicesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesPreview.swift; sourceTree = "<group>"; };
+		B6B37BF3282BFAF800F7F83B /* LocalesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalesPreview.swift; sourceTree = "<group>"; };
+		B6B37BF9282BFAF800F7F83B /* DynamicTypeSizesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypeSizesPreview.swift; sourceTree = "<group>"; };
+		B6B37C14282C127C00F7F83B /* BetterPreviewSampleWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPreviewSampleWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B37C16282C127F00F7F83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B37C1C282C128000F7F83B /* BetterPreviewSampleWatchOSExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BetterPreviewSampleWatchOSExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B37C27282C128200F7F83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B37C2C282C128200F7F83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B37C41282C1D1600F7F83B /* BetterPreviewSampleTvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPreviewSampleTvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B37C47282C1D1800F7F83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B37BD5282BFA9100F7F83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D16EC2847B48D00640F62 /* BetterPreview in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37BDB282BFA9100F7F83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D16F02847B4A500640F62 /* BetterPreview in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C19282C128000F7F83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D16EE2847B4A000640F62 /* BetterPreview in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C3E282C1D1600F7F83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D16F22847B4A900640F62 /* BetterPreview in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6B37BCB282BFA8F00F7F83B = {
+			isa = PBXGroup;
+			children = (
+				B6B37BD0282BFA8F00F7F83B /* Shared */,
+				B6B37C4F282C1D5300F7F83B /* iOS */,
+				B6B37C15282C127C00F7F83B /* watchOS */,
+				B6B37C20282C128000F7F83B /* watchOS Extension */,
+				B6B37BDF282BFA9100F7F83B /* macOS */,
+				B6B37C42282C1D1600F7F83B /* tvOS */,
+				B6B37BD9282BFA9100F7F83B /* Products */,
+				B6B37C0B282C0FD200F7F83B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B37BD0282BFA8F00F7F83B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B6B37BD1282BFA8F00F7F83B /* BetterPreviewSampleApp.swift */,
+				B6B37BD2282BFA8F00F7F83B /* SampleView.swift */,
+				B6B37BD3282BFA9000F7F83B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B6B37BD9282BFA9100F7F83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B37BD8282BFA9100F7F83B /* BetterPreviewSample.app */,
+				B6B37BDE282BFA9100F7F83B /* BetterPreviewSampleMacOS.app */,
+				B6B37C14282C127C00F7F83B /* BetterPreviewSampleWatchOS.app */,
+				B6B37C1C282C128000F7F83B /* BetterPreviewSampleWatchOSExtension.appex */,
+				B6B37C41282C1D1600F7F83B /* BetterPreviewSampleTvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B37BDF282BFA9100F7F83B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6674C9C282D6228009037A1 /* ColorSchemesPreview.swift */,
+				B6674C97282D6227009037A1 /* LocalesPreview.swift */,
+				B6B37BE0282BFA9100F7F83B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		B6B37C0B282C0FD200F7F83B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64D16E42847B43400640F62 /* BetterPreview */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B37C15282C127C00F7F83B /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6B37C16282C127F00F7F83B /* Assets.xcassets */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		B6B37C20282C128000F7F83B /* watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6674C87282D591F009037A1 /* DevicesPreview.swift */,
+				B6674C8A282D591F009037A1 /* DynamicTypeSizesPreview.swift */,
+				B6674C88282D591F009037A1 /* LocalesPreview.swift */,
+				B6B37C27282C128200F7F83B /* Assets.xcassets */,
+				B6B37C2C282C128200F7F83B /* Info.plist */,
+			);
+			path = "watchOS Extension";
+			sourceTree = "<group>";
+		};
+		B6B37C42282C1D1600F7F83B /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6674CAB282D63DE009037A1 /* ColorSchemesPreview.swift */,
+				B6674CAA282D63DE009037A1 /* LocalesPreview.swift */,
+				B6B37C47282C1D1800F7F83B /* Assets.xcassets */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		B6B37C4F282C1D5300F7F83B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6674C95282D5EC7009037A1 /* ColorSchemesPreview.swift */,
+				B683BC902839845C00577545 /* CustomDevicePreview.swift */,
+				B6B37BF1282BFAF800F7F83B /* DevicesPreview.swift */,
+				B6B37BF9282BFAF800F7F83B /* DynamicTypeSizesPreview.swift */,
+				B6674C83282D54A4009037A1 /* InterfaceOrientationsPreview.swift */,
+				B6B37BF3282BFAF800F7F83B /* LocalesPreview.swift */,
+				B6674C85282D560C009037A1 /* UIKitPreview.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B37BD7282BFA9100F7F83B /* BetterPreviewSample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B37BE9282BFA9100F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (iOS)" */;
+			buildPhases = (
+				B6B37BD4282BFA9100F7F83B /* Sources */,
+				B6B37BD5282BFA9100F7F83B /* Frameworks */,
+				B6B37BD6282BFA9100F7F83B /* Resources */,
+				B6B37C2F282C128200F7F83B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B37C2E282C128200F7F83B /* PBXTargetDependency */,
+			);
+			name = "BetterPreviewSample (iOS)";
+			packageProductDependencies = (
+				B64D16EB2847B48D00640F62 /* BetterPreview */,
+			);
+			productName = "BetterPreviewSampleApp (iOS)";
+			productReference = B6B37BD8282BFA9100F7F83B /* BetterPreviewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B37BDD282BFA9100F7F83B /* BetterPreviewSample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B37BEC282BFA9100F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (macOS)" */;
+			buildPhases = (
+				B6B37BDA282BFA9100F7F83B /* Sources */,
+				B6B37BDB282BFA9100F7F83B /* Frameworks */,
+				B6B37BDC282BFA9100F7F83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterPreviewSample (macOS)";
+			packageProductDependencies = (
+				B64D16EF2847B4A500640F62 /* BetterPreview */,
+			);
+			productName = "BetterPreviewSampleApp (macOS)";
+			productReference = B6B37BDE282BFA9100F7F83B /* BetterPreviewSampleMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B37C13282C127C00F7F83B /* BetterPreviewSample (watchOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B37C35282C128200F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (watchOS)" */;
+			buildPhases = (
+				B6B37C12282C127C00F7F83B /* Resources */,
+				B6B37C34282C128200F7F83B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B37C1F282C128000F7F83B /* PBXTargetDependency */,
+			);
+			name = "BetterPreviewSample (watchOS)";
+			productName = "BetterPreviewSampleApp (watchOS)";
+			productReference = B6B37C14282C127C00F7F83B /* BetterPreviewSampleWatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B6B37C1B282C128000F7F83B /* BetterPreviewSample (watchOS) Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B37C31282C128200F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (watchOS) Extension" */;
+			buildPhases = (
+				B6B37C18282C128000F7F83B /* Sources */,
+				B6B37C19282C128000F7F83B /* Frameworks */,
+				B6B37C1A282C128000F7F83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterPreviewSample (watchOS) Extension";
+			packageProductDependencies = (
+				B64D16ED2847B4A000640F62 /* BetterPreview */,
+			);
+			productName = "BetterPreviewSampleApp (watchOS) WatchKit Extension";
+			productReference = B6B37C1C282C128000F7F83B /* BetterPreviewSampleWatchOSExtension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		B6B37C40282C1D1600F7F83B /* BetterPreviewSample (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B37C4C282C1D1800F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (tvOS)" */;
+			buildPhases = (
+				B6B37C3D282C1D1600F7F83B /* Sources */,
+				B6B37C3E282C1D1600F7F83B /* Frameworks */,
+				B6B37C3F282C1D1600F7F83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterPreviewSample (tvOS)";
+			packageProductDependencies = (
+				B64D16F12847B4A900640F62 /* BetterPreview */,
+			);
+			productName = "BetterPreviewSample (tvOS)";
+			productReference = B6B37C41282C1D1600F7F83B /* BetterPreviewSampleTvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B37BCC282BFA8F00F7F83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B6B37BD7282BFA9100F7F83B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B6B37BDD282BFA9100F7F83B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B6B37C13282C127C00F7F83B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B6B37C1B282C128000F7F83B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B6B37C40282C1D1600F7F83B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B6B37BCF282BFA8F00F7F83B /* Build configuration list for PBXProject "BetterPreviewSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B37BCB282BFA8F00F7F83B;
+			packageReferences = (
+				B64D16EA2847B48D00640F62 /* XCRemoteSwiftPackageReference "BetterPreview" */,
+			);
+			productRefGroup = B6B37BD9282BFA9100F7F83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B37BD7282BFA9100F7F83B /* BetterPreviewSample (iOS) */,
+				B6B37C13282C127C00F7F83B /* BetterPreviewSample (watchOS) */,
+				B6B37C1B282C128000F7F83B /* BetterPreviewSample (watchOS) Extension */,
+				B6B37BDD282BFA9100F7F83B /* BetterPreviewSample (macOS) */,
+				B6B37C40282C1D1600F7F83B /* BetterPreviewSample (tvOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B37BD6282BFA9100F7F83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37BE5282BFA9100F7F83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37BDC282BFA9100F7F83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37BE6282BFA9100F7F83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C12282C127C00F7F83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37C17282C127F00F7F83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C1A282C128000F7F83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37C28282C128200F7F83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C3F282C1D1600F7F83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37C48282C1D1800F7F83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B37BD4282BFA9100F7F83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683BC912839845C00577545 /* CustomDevicePreview.swift in Sources */,
+				B6B37BE3282BFA9100F7F83B /* SampleView.swift in Sources */,
+				B6674C84282D54A4009037A1 /* InterfaceOrientationsPreview.swift in Sources */,
+				B6B37BFB282BFAF800F7F83B /* DevicesPreview.swift in Sources */,
+				B6B37C3C282C16E500F7F83B /* LocalesPreview.swift in Sources */,
+				B6674C86282D560C009037A1 /* UIKitPreview.swift in Sources */,
+				B6674C96282D5EC7009037A1 /* ColorSchemesPreview.swift in Sources */,
+				B6B37BE1282BFA9100F7F83B /* BetterPreviewSampleApp.swift in Sources */,
+				B6B37C01282BFAF800F7F83B /* DynamicTypeSizesPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37BDA282BFA9100F7F83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37BE4282BFA9100F7F83B /* SampleView.swift in Sources */,
+				B6674C9D282D6228009037A1 /* LocalesPreview.swift in Sources */,
+				B6674CA2282D6228009037A1 /* ColorSchemesPreview.swift in Sources */,
+				B6B37BE2282BFA9100F7F83B /* BetterPreviewSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C18282C128000F7F83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6674C8E282D591F009037A1 /* LocalesPreview.swift in Sources */,
+				B6B37C50282D4E9D00F7F83B /* SampleView.swift in Sources */,
+				B6674C93282D5D18009037A1 /* BetterPreviewSampleApp.swift in Sources */,
+				B6674C8D282D591F009037A1 /* DevicesPreview.swift in Sources */,
+				B6674C90282D591F009037A1 /* DynamicTypeSizesPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B37C3D282C1D1600F7F83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6674C94282D5D19009037A1 /* BetterPreviewSampleApp.swift in Sources */,
+				B6674CB0282D63DE009037A1 /* LocalesPreview.swift in Sources */,
+				B6B37C51282D4E9D00F7F83B /* SampleView.swift in Sources */,
+				B6674CB1282D63DE009037A1 /* ColorSchemesPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6B37C1F282C128000F7F83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B37C1B282C128000F7F83B /* BetterPreviewSample (watchOS) Extension */;
+			targetProxy = B6B37C1E282C128000F7F83B /* PBXContainerItemProxy */;
+		};
+		B6B37C2E282C128200F7F83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B37C13282C127C00F7F83B /* BetterPreviewSample (watchOS) */;
+			targetProxy = B6B37C2D282C128200F7F83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6B37BE7282BFA9100F7F83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		B6B37BE8282BFA9100F7F83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		B6B37BEA282BFA9100F7F83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample;
+				PRODUCT_NAME = BetterPreviewSample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6B37BEB282BFA9100F7F83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample;
+				PRODUCT_NAME = BetterPreviewSample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B37BED282BFA9100F7F83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample;
+				PRODUCT_NAME = BetterPreviewSampleMacOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6B37BEE282BFA9100F7F83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample;
+				PRODUCT_NAME = BetterPreviewSampleMacOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6B37C32282C128200F7F83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BetterPreviewSample;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = BetterPreviewSampleWatchOSExtension;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		B6B37C33282C128200F7F83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BetterPreviewSample;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = BetterPreviewSampleWatchOSExtension;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B37C36282C128200F7F83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = BetterPreviewSampleApp__watchOS__WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = BetterPreviewSample;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.betterpreview.BetterPreviewSample;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample.watchkitapp;
+				PRODUCT_NAME = BetterPreviewSampleWatchOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		B6B37C37282C128200F7F83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = BetterPreviewSampleApp__watchOS__WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = BetterPreviewSample;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.betterpreview.BetterPreviewSample;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSample.watchkitapp;
+				PRODUCT_NAME = BetterPreviewSampleWatchOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B37C4D282C1D1800F7F83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSampleTvOS;
+				PRODUCT_NAME = BetterPreviewSampleTvOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		B6B37C4E282C1D1800F7F83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betterpreview.BetterPreviewSampleTvOS;
+				PRODUCT_NAME = BetterPreviewSampleTvOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B37BCF282BFA8F00F7F83B /* Build configuration list for PBXProject "BetterPreviewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B37BE7282BFA9100F7F83B /* Debug */,
+				B6B37BE8282BFA9100F7F83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B37BE9282BFA9100F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B37BEA282BFA9100F7F83B /* Debug */,
+				B6B37BEB282BFA9100F7F83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B37BEC282BFA9100F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B37BED282BFA9100F7F83B /* Debug */,
+				B6B37BEE282BFA9100F7F83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B37C31282C128200F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (watchOS) Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B37C32282C128200F7F83B /* Debug */,
+				B6B37C33282C128200F7F83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B37C35282C128200F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (watchOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B37C36282C128200F7F83B /* Debug */,
+				B6B37C37282C128200F7F83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B37C4C282C1D1800F7F83B /* Build configuration list for PBXNativeTarget "BetterPreviewSample (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B37C4D282C1D1800F7F83B /* Debug */,
+				B6B37C4E282C1D1800F7F83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B64D16EA2847B48D00640F62 /* XCRemoteSwiftPackageReference "BetterPreview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpszczerba/BetterPreview";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B64D16EB2847B48D00640F62 /* BetterPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64D16EA2847B48D00640F62 /* XCRemoteSwiftPackageReference "BetterPreview" */;
+			productName = BetterPreview;
+		};
+		B64D16ED2847B4A000640F62 /* BetterPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64D16EA2847B48D00640F62 /* XCRemoteSwiftPackageReference "BetterPreview" */;
+			productName = BetterPreview;
+		};
+		B64D16EF2847B4A500640F62 /* BetterPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64D16EA2847B48D00640F62 /* XCRemoteSwiftPackageReference "BetterPreview" */;
+			productName = BetterPreview;
+		};
+		B64D16F12847B4A900640F62 /* BetterPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64D16EA2847B48D00640F62 /* XCRemoteSwiftPackageReference "BetterPreview" */;
+			productName = BetterPreview;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B6B37BCC282BFA8F00F7F83B /* Project object */;
+}

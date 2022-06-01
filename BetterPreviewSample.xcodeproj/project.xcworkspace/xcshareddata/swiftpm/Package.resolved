@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "betterpreview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jpszczerba/BetterPreview",
+      "state" : {
+        "revision" : "0be577c830fec2c2c2b344a02a16ac42786eea43",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
